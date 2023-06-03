@@ -1,8 +1,8 @@
 name: 255 Pull Request Workflow
 on:
-  pull_request:
+  push:
     branches:
-      - tb
+      - main
 
 jobs:
   build:
