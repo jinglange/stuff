@@ -1,6 +1,6 @@
 name: 255 Pull Request Workflow
 on:
-  push:
+  pull_request:
     branches:
       - tb
 
